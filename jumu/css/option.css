@@ -100,6 +100,8 @@ header .he_right p {
 .navbox ul li a {
   color: #fff;
   height: 60px;
+  display: inline-block;
+  width: 100%;
 }
 .navbox ul li:hover {
   background: #e14b2f;
