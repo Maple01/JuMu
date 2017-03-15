@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>麦蒙童学</title>
+	<meta charset="utf-8">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/calendar.css">
+	<link rel="stylesheet" type="text/css" href="./css/jquery.searchableSelect.css">
+	<script src="./js/jquery-3.1.1.min.js"></script>
+   	<script src="./js/bootstrap.min.js"></script>
+   	<style type="text/css">
+	    .searchable-select-holder{
+		    background: #b9dab9;
+		    border: 2px solid #fff;
+		    border-radius: 20px;
+		    outline: none;
+		    text-align: center;
+		    height:34px;
+		    width:101%;
+		    font-size: 16px;
+		    color: #fff;
+		    font-weight: bold;
+	    }
+
+	  </style>
+</head>
+<body>
+	<!-- 脱离文档流的头部 -->
+	<div class="banner-con">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html">
+					<img src="./images/logo.png">
+				</a>
+			</div>
+
+			<div class="phone">
+				<div class="phone-img">
+					<img src="./images/phone.png">
+				</div>
+			</div>
+
+			<div class="navbar-right">
+				<ul class="nav navbar-nav navbar-left">
+					<li class="nav-box2 nav-bg1 nav-boom">
+						<span>首页</span>
+						<a href="#" class="nav-bg1-hover abgc">首页</a>
+					</li>
+					<li class="nav-box2 nav-bg2">
+						<span>课程</span>
+						<a href="course.html" class="nav-bg2-hover abgc">课程</a>
+					</li>
+					<li class="nav-box2 nav-bg3">
+						<span>师资</span>
+						<a href="#" class="nav-bg3-hover abgc">师资</a>
+					</li>
+					<li class="nav-box2 nav-bg4">
+						<span>社区</span>
+						<a href="community.html" class="nav-bg4-hover abgc">社区</a>
+					</li>
+					<li class="nav-box2 nav-bg5">
+						<span>关于我们</span>
+						<a href="#" class="nav-bg5-hover abgc">关于我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<header class="banner">
+		<!-- 页面动画 -->
+		<div class="tar">
+				<img src="./images/yun.png" class="yun"/>
+				<img src="./images/text.png" class="tar-text"/>
+				<img src="./images/text2.png" class="tar-text2"/>
+				<img src="./images/shan.png" class="shan"/>
+				<img src="./images/yu.png" class="yu"/>
+		</div>
+	</header>
+
+	<div class="order">
+		<div class="container">
+			<h2 class="order-text">免费预约</h2>
+		</div>
+		<div class="order-form">
+			<form>
+				<input type="text" name="name" class="text-name" placeholder="宝宝昵称">
+				<!-- <input type="text" name="name" class="text-name" placeholder="宝宝生日"> -->
+				<input type="text" id="dt" placeholder="宝宝生日">
+  				<div id="dd"></div>
+				<input type="text" name="name" class="text-name" placeholder="您的电话">
+				<!-- <input type="text" name="name" class="text-name" placeholder="城市"> -->
+				<!-- <select>
+					<option>城市</option>
+					<option>杭州</option>
+				</select> -->
+				<!-- <input type="text" name="name" class="text-name" placeholder="地区"> -->
+				<!-- <select>
+					<option>地区</option>
+					<option>拱墅区</option>
+					<option>上城区</option>
+					<option>下城区</option>
+					<option>江干区</option>
+					<option>西湖区</option>
+					<option>滨江区</option>
+					<option>余杭区</option>
+					<option>萧山区</option>
+					<option>其他区县</option>
+				</select> -->
+				<center class="abc">
+					<select>
+					  <option value="city">城市</option>
+					  <option value="Hangzhou">杭州</option>
+					</select>
+
+					<select>
+					  <option value="area">地区</option>
+					  <option value="Gongshu">拱墅区</option>
+					  <option value="Shangcheng">上城区</option>
+					  <option value="Xiacheng">下城区</option>
+					  <option value="Jianggan">江干区</option>
+					  <option value="Xihu">西湖区</option>
+					  <option value="Binjiang">滨江区</option>
+					  <option value="Yuhang">余杭区</option>
+					  <option value="other">其他县区</option>
+					</select>
+					
+				</center>
+			</form>
+			
+			<button>立即预约</button>
+		</div>
+		<img src="./images/anniu.png">
+	</div>
+
+	<div class="banner text-box">
+		<div class="container">
+			<img src="./images/text3.png" class="text3">
+		</div>
+		<div class="round"></div>
+		<div class="round2"></div>
+		<div class="round3"></div>
+		<div class="round4"></div>
+		<div class="toum"></div>
+		<div class="toum2"></div>
+		<div class="toum3"></div>
+		<div class="toum4"></div>
+
+		<img src="./images/flower.png" class="flower">
+	</div>
+
+	<div class="banner2">
+		<img src="./images/font-text.png" class="bgt1">
+		<img src="./images/font-text2.png" class="bgt2">
+		<img src="./images/font-text3.png" class="bgt3">
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="footer">麦蒙童学馆地址：杭州市江干区万象城二期华润大厦B座302室</div>
+			<div class="footer-ma">
+				<p>扫码关注公众号了解更多</p>
+				<img src="./images/erma.png">
+			</div>
+		</div>
+	</footer>
+	
+	
+	<script src="./js/jquery.js"></script> 
+	<script src="./js/index.js"></script>
+	<script src="./js/calendar.js"></script>
+	<script src="./js/jquery.searchableSelect.js"></script>
+	<script>
+    
+
+	    $('#dd').calendar({
+	        trigger: '#dt',
+	        zIndex: 999,
+			format: 'yyyy-mm-dd',
+	        onSelected: function (view, date, data) {
+	            console.log('event: onSelected')
+	        },
+	        onClose: function (view, date, data) {
+	            console.log('event: onClose')
+	            console.log('view:' + view)
+	            console.log('date:' + date)
+	            console.log('data:' + (data || 'None'));
+	        }
+	    });
+	</script>
+	<script>
+		$(function(){
+			$('select').searchableSelect();
+		});
+	</script>
+</body>
+</html>
