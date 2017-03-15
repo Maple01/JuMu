@@ -13,6 +13,7 @@ a {
 body {
   width: 100%;
   height: 100%;
+  min-width: 1300px;
 /*文档头部*/
 }
 header {
@@ -60,8 +61,7 @@ header .he_right p {
 }
 .banner {
   width: 100%;
-  height: 100%;
-/*导航区域*/
+  /*导航区域*/
 }
 .banner .banner-box {
   width: 100%;
@@ -158,7 +158,6 @@ header .he_right p {
 }
 .wares .wares-box .option_top {
   width: 100%;
-  height: 100%;
   margin-top: 2%;
   overflow: hidden;
   background: url("../images/mod-bg.png") 50% 0%/86% no-repeat;
@@ -271,19 +270,16 @@ header .he_right p {
 }
 .wares .wares-box .mode ul li {
   display: inline-block;
-  width: 24%;
-  padding: 1% 0%;
+  width: 310px;
+  height: 258px;
+  padding: 13px 0;
+  margin: 0 20px;
 }
 .wares .wares-box .mode ul li a {
   position: relative;
   overflow: hidden;
   display: block;
-  color: #6a6064;
-  border: thin solid rgba(71,95,117,0.2);
-}
-.wares .wares-box .mode ul li a .mode-number {
-  padding: 1% 0;
-  line-height: 150%;
+  height: 100%;
 }
 .wares .wares-box .mode ul li a img {
   width: 100%;
@@ -291,6 +287,7 @@ header .he_right p {
 .wares .wares-box .mode ul li a .mode-hover {
   width: 100%;
   height: 100%;
+  font-size: 16px;
   color: #fff;
   position: absolute;
   top: 0;
@@ -298,9 +295,6 @@ header .he_right p {
   z-index: 4;
   background: url("../images/border.png") no-repeat center 50%/39% rgba(71,95,117,0.8);
   transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
 }
 .wares .wares-box .mode ul li a .mode-hover h2,
 .wares .wares-box .mode ul li a .mode-hover h3 {
@@ -329,32 +323,8 @@ header .he_right p {
   display: inline-block;
   padding-top: 2%;
 }
-@media only screen and (min-width: 800px) {
-  body {
-    font-size: 12px;
-  }
-  body .he_right {
-    font-size: 12px;
-  }
-  body .navbox ul li {
-    width: 14%;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  body {
-    font-size: 12px;
-  }
-  body .he_right {
-    font-size: 12px;
-  }
-  body .navbox ul li {
-    width: 15%;
-  }
-  body .navbox ul li a {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 1280px) {
+
+@media only screen and (max-width: 1279px) {
   body {
     font-size: 12px;
   }
@@ -367,8 +337,40 @@ header .he_right p {
   body .navbox ul li a {
     font-size: 26px;
   }
+  body .op_bg_2{
+    margin :-6% 5% 5% 35.5% !important;
+  }
+  body .op_bg_3{
+    margin :-10.5% 5% 5% 59.5% !important;
+  }
+  body .op_bg_4{
+    margin :-4% 5% 4% 83.5% !important;
+  }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  body {
+    font-size: 12px;
+  }
+  body .he_right {
+    font-size: 12px;
+  }
+  body .navbox ul li {
+    width: 17%;
+  }
+  body .navbox ul li a {
+    font-size: 26px;
+  }
+  body .op_bg_2{
+    margin :-5% 5% 5% 35.5% !important;
+  }
+  body .op_bg_3{
+    margin :-11% 5% 5% 59.5% !important;
+  }
+  body .op_bg_4{
+    margin :-4% 5% 4% 83.5% !important;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1599px){
   body {
     font-size: 14px;
   }
@@ -380,6 +382,15 @@ header .he_right p {
   }
   body .navbox ul li a {
     font-size: 26px;
+  }
+  body .op_bg_2{
+    margin :-5.8% 5% 5% 35% !important;
+  }
+  body .op_bg_3{
+    margin :-11% 5% 5% 59.3% !important;
+  }
+  body .op_bg_4{
+    margin :-4.5% 5% 4% 83% !important;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -396,7 +407,7 @@ header .he_right p {
     font-size: 26px;
   }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 2000px) {
   body {
     font-size: 16px;
   }
